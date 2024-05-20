@@ -24,7 +24,7 @@ public class JFrame_Shop extends JFrame{
 
         JPanel panel = new JPanel();
         JTextField text = new JTextField(this.shop.stuff_to_buy_to_string());
-        System.out.println(this.shop.stuff_to_buy_to_string());
+        System.out.println(this.shop.get_FishToBuy()); //stuff_to_buy_to_string());
         panel.setLayout(new BorderLayout());
         panel.add(text, BorderLayout.NORTH);
         

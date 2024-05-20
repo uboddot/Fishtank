@@ -1,7 +1,8 @@
 package model;
 public class Fish {
 
-
+    //TODO: a fish has a picutre
+    //TODO: you can give a picture when instanciating.
     String color;
     String name;
 

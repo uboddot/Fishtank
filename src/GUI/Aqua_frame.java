@@ -43,7 +43,7 @@ public class Aqua_frame extends JFrame {
             this.setJMenuBar(menubar);
 
             JPanel main_panel = new JPanel();
-            JButton button_show_aquarium = new JButton();
+            JButton button_show_aquarium = new JButton("Show Aquarium");
             main_panel.add(button_show_aquarium);
             main_panel.setBackground(Color.red);
             this.add(main_panel);
@@ -52,6 +52,8 @@ public class Aqua_frame extends JFrame {
 
         }
 
+        //Todo: should be able to display the picutres of fishes in the tank
+        // todo: the fish in the tank actually move.
         
 
 
